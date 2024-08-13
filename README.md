@@ -1,1 +1,1 @@
-<h1>Flask Login App With Mysql</h1>
+<h1 style="text-align: center">Flask Login App With Mysql</h1>
