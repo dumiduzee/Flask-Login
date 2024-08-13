@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+
+    <style>
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        div{
+
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            padding: 12px;
+        }
+    *{
+        font-family: "Poppins", sans-serif;
+    }
+        form{
+
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 12px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        input{
+            width: 308px;
+            height: 30px;
+            outline: none;
+            border: 1px solid black;
+            margin: 4px;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+        button{
+            width: 320px;
+            height: 40px;
+            outline: none;
+            border: none;
+            padding: 2px 6px;
+            border-radius: 6px;
+            background-color: lightblue;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+       <form method="post">
+            <label>
+            <input type="email" name="email" placeholder="Enter email"/>
+        </label>
+        <label>
+            <input type="password" name="password" placeholder="Enter password"/>
+        </label>
+        <button type="submit">Log In</button>
+           <p>{{ login }}</p>
+       </form>
+    </div>
+
+</body>
+</html>
